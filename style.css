@@ -124,3 +124,25 @@ body {
   border: 3rem solid white;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+.weather {
+  display: grid;
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  width: 45rem;
+  border-radius: 0.7rem;
+  margin: 0 3rem;
+  text-align: center;
+}
+.weather__image {
+  width: 4rem;
+  height: 4rem;
+
+  /* background-color: #eee;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem; */
+}
+input {
+  text-align: center;
+}
